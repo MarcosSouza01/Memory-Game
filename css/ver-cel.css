@@ -1,0 +1,31 @@
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .grid{
+        width: 30%;
+        min-width: 490px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    header{
+        width: 30%;
+        min-width: 490px;
+    }
+    .card{
+        aspect-ratio: 3/4;
+    }
+    .gameOver{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .btn2{
+        left: 30%;
+        bottom: 5%;
+    }
+    .img{
+        top: 25%;
+        left: 35%;
+        transform: translate(-25%, -35%);
+        background-color: rgba(0, 255, 255, 0.233);
+    }
+}

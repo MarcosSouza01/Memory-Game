@@ -1,0 +1,51 @@
+@font-face{
+    font-family: Bimanails;
+    src: url('../../meugameJS/MeusTeste/BIMANAILS.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    }   
+.login-form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+.login-hrader{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.login-hrader h1{
+    color: #333;
+    font-size: 4em;
+    font-family: 'Bimanails', sans-serif;
+}
+.login-input{
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    outline: none;
+}
+.login-buttom{
+    background-color: #ee665c;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 1.9em;
+    width: 100%;
+    max-width: 300px;
+}
+.login-buttom:disabled{
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+}
