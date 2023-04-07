@@ -1,18 +1,22 @@
-@media screen and (min-width: 500px) and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+    
     .grid{
-        width: 30%;
-        min-width: 490px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    header{
-        width: 30%;
-        min-width: 490px;
+        width: 35%;
+        min-width: 600px;
+        top: 15%;
+        left: 0%;
     }
     .card{
-        aspect-ratio: 3/4;
+        aspect-ratio: 3/3;
+        
     }
+    header{
+        width: 35%;
+        min-width: 600px;
+        top: 8%;
+        left: 0%;
+    }
+    
     .gameOver{
         width: 100%;
         height: 100%;
@@ -29,3 +33,4 @@
         background-color: rgba(0, 255, 255, 0.233);
     }
 }
+
